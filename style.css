@@ -309,14 +309,14 @@ nav .nav-container {
 }
 
 .always-on-plan-card .header {
-    background-image: url(./Images/banner-sm.png);
+    background-image: url(./Images/banner-sm.webp);
     background-size: cover;
     background-position: center;
     color: white;
 }
 
 .did_you_know_section {
-    background-image: url(./Images/banner-lg.png);
+    background-image: url(./Images/banner-lg.webp);
     background-position: center;
     background-size: cover;
     color: white;
