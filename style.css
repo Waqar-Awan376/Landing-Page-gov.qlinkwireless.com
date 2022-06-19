@@ -16,7 +16,7 @@ body {
 }
 
 .hero_section {
-    background-image: url(./Images/main_lp_desktop.png);
+    background-image: url(./Images/main_lp_desktop.webp);
     background-size: cover;
     background-position: center;
     height: 50vh;
