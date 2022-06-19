@@ -15,9 +15,6 @@ body {
     box-sizing: border-box;
 }
 
-/* .main-nav {
-    background-color: var(--bg-primary);
-} */
 nav {
     background-color: #042B3F;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
@@ -172,11 +169,11 @@ nav .nav-container {
     background-image: url(./Images/main_lp_desktop.webp);
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    min-height: 55vh;
 }
 
 .hero-section_left {
-    height: 50vh;
+    min-height: 55vh;
     background-color: rgba(0, 125, 208, 1);
     color: white;
 }
@@ -368,7 +365,6 @@ nav .nav-container {
     position: relative;
     height: 0px;
     font-size: 20px;
-    text-align: justify;
     max-width: 780px;
     overflow: hidden;
     transition: 0.5s;
@@ -376,7 +372,7 @@ nav .nav-container {
 
 
 .accordion .container.active .content {
-    height: 190px;
+    min-height: 190px;
     overflow: hidden;
 }
 
@@ -401,6 +397,10 @@ nav .nav-container {
         flex-direction: column;
         justify-content: space-around;
     }
+
+    .company-logos {
+        width: 300px;
+    }
 }
 
 .footer_content_section {
@@ -424,21 +424,35 @@ nav .nav-container {
 
 @media screen and (max-width:500px) {
     .how_to_qualify_section img {
-        width: 80%;
+        width: 200px;
         margin: auto;
     }
 
     .free_cell_phone_img {
-        width: 450px;
+        width: 300px;
     }
 
     .testimonial-cards {
-        width: 250px;
+        width: 220px;
     }
 
-    .free_cell_phone_section img {
-        width: 80%;
-        margin: auto;
+    .company-logos {
+        width: 200px;
+    }
+
+    .accordion .container {
+        margin: 20px 0px;
+        border-radius: 15px;
+        padding: 8px;
+    }
+
+    .accordion .content {
+        position: relative;
+        height: 0px;
+        font-size: 12px;
+        max-width: 780px;
+        overflow: hidden;
+        transition: 0.5s;
     }
 
     .why_millions_signed_up_section img {
@@ -465,7 +479,7 @@ nav .nav-container {
     }
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:768px) {
     .hero_section {
         background-image: none;
     }
@@ -502,5 +516,9 @@ nav .nav-container {
         font-size: 10px;
         justify-content: center;
         align-items: center;
+    }
+
+    .free_cell_phone_img {
+        width: 200px;
     }
 }
