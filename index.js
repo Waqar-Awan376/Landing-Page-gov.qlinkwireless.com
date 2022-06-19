@@ -22,7 +22,7 @@ function validateEmail(email) {
 }
 function validateZipCode(zipCode) {
     if (zipCode.toString().length === 5) {
-        if ((parseInt(zipCode) >= 00001) && (parseInt(zipCode) <= 99950)) {
+        if (parseInt(zipCode) >= 00001 && parseInt(zipCode) <= 99950) {
             return true;
         }
         return false;
