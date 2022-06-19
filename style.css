@@ -3,6 +3,8 @@
     --color-1: rgba(0, 125, 208, 1);
     --bg-color-1: rgba(0, 125, 208, 1);
     --bg-light-primary: rgba(235, 246, 251, 1);
+    --bg-color-2: rgba(41, 130, 197, 1);
+    --bg-color-3: rgba(243, 245, 249, 1);
 }
 
 body {
@@ -84,7 +86,7 @@ body {
 }
 
 .how_to_qualify_section {
-    background-color: var(--bg-light-primary);
+    background-color: var(--bg-color-3);
 }
 
 .how_to_qualify_section img {
@@ -99,6 +101,52 @@ body {
     width: 250px;
 }
 
+.free_cell_phone_img {
+    width: 450px;
+}
+
+.testimonial_section {
+    background-color: var(--bg-color-3);
+}
+
+.testimonial_section .company-logos {
+    width: 200px;
+    height: 40px;
+}
+
+.testimonial_section .facebook-logo {
+    width: 40px;
+}
+
+.testimonial-cards {
+    background-color: white;
+    width: 350px;
+
+}
+
+.testimonial-cards .sub-logo {
+    width: 25px;
+    margin-left: -25px;
+    margin-bottom: -40px;
+}
+
+.testimonial_section_feature {
+    background-color: var(--bg-color-2);
+    color: white;
+}
+
+.testimonial_section_feature img {
+    width: 350px;
+}
+
+.why_millions_signed_up_section {
+    background-color: var(--bg-color-3);
+}
+
+.why_millions_signed_up_section img {
+    width: 400px;
+}
+
 @media screen and (max-width:1300px) {
     .how_to_qualify_section img {
         width: 400px;
@@ -111,14 +159,32 @@ body {
         margin: auto;
     }
 
+    .free_cell_phone_img {
+        width: 450px;
+    }
+
+    .testimonial-cards {
+        width: 250px;
+    }
+
     .free_cell_phone_section img {
         width: 80%;
         margin: auto;
+    }
+
+    .why_millions_signed_up_section img {
+        width: 220px;
     }
 }
 
 @media screen and (max-width:350px) {
     .w-r-250px {
         width: 150px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .hero_section {
+        background-image: none;
     }
 }
